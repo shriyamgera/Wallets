@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #040618;
+}
+
+.glassmorphism{
+  @apply bg-opacity-[0.01] border border-white rounded-lg backdrop-filter backdrop-blur-md border-opacity-[0.1]
+}
